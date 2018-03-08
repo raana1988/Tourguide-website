@@ -1,0 +1,59 @@
+.mr-3{
+	width: 64px;
+	height: 64px;
+	border:1px solid #ddd;
+	padding: 2px
+}
+
+.media-body{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px
+}
+
+.img-list{
+	margin: 20px 0 50px;
+}
+
+p.caption{
+	color: #fff;
+	position: relative;
+	bottom: 0;
+	background: #b6c708;
+	top: 110px;
+	padding: 8px 0;
+}
+
+.img-article{
+	height: 345px;
+    width: 520px;
+    padding: 5px;
+    border: 1px solid #e4e4e4;
+}
+
+.footer-article .mr-3{
+	width: 45px;
+	height: 45px;
+	border:1px solid #ddd;
+	padding: 2px
+}
+
+.footer-article .media-body{
+	font-size: 13px;
+}
+
+.widgettitle{
+	margin: 10px 0 30px;
+	border-bottom: 2px solid #9E9E9E;
+	padding-bottom: 10px;
+}
+
+footer{
+	background-color: #4682B4;
+	color:#fff;
+	padding-top: 20px;
+
+}
+
+footer a{
+	color: #fff !important;
+}
