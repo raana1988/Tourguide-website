@@ -5,9 +5,105 @@
 	padding: 2px
 }
 
+a{
+	text-decoration: none;
+	transition:all 0.5s;
+}
+a:hover{
+	text-decoration: none;
+	color: gray !important;
+}
+
+.marg{
+	margin: 0 auto !important;
+	display: flex;
+	justify-content: center;
+}
+
+.nav{
+	padding: 0;
+}
+
+.nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+}
+
+.drp-nav {
+	display: flex !important;
+    text-align: left;
+}
+
+option {
+background-repeat:no-repeat;
+background-position:bottom left;
+padding-left:30px;
+}
+
+.social-logo{
+	align-items: center;
+}
+
+.nav-link {
+	color: #fff !important;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.social-logo a{
+	padding: 10px;
+}
+
+.navbar{
+	width: 100%;
+	
+}
+
+.nav {
+	background-color: #00BCD4;
+}
+
+.search-nav form{
+	width: 100%;
+}
+
+.search {
+	width: 65% !important;
+	margin-right: 10px;
+}
+
+.search-btn {
+	width: 18%;
+	margin-left: 10px;
+}
+
+.flags button {
+	float: right;
+	/* padding: 20px; */
+	border: 0;
+	margin: 15px;
+}
+
+
+.dropdown-toggle, .dropdown-menu { min-width:5.5rem !important; text-align: center;}
+.btn-group img { margin-right: 10px }
+.dropdown-toggle {/* padding-right: 50px; */}
+.dropdown-toggle .glyphicon { margin-left: 20px; margin-right: -40px }
+.dropdown-menu>li>a:hover { background: #f1f9fd;text-decoration: none } /* $search-blue */
+.dropdown-header { font-size: 14px; font-weight: 700; padding-top: 5px; padding-bottom: 5px; margin-top: 10px; margin-bottom: 5px }
+.btn-link{	color: #000 !important;}
+.btn-link:focus{text-decoration: none !important;}
+
 .media-body{
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 10px
+}
+
+.bg-slider{
+	/* background-color: gray; */
+	padding: 20px 0;
 }
 
 .img-list{
@@ -18,7 +114,7 @@ p.caption{
 	color: #fff;
 	position: relative;
 	bottom: 0;
-	background: #b6c708;
+	background: #269faf;
 	top: 110px;
 	padding: 8px 0;
 }
@@ -30,12 +126,30 @@ p.caption{
     border: 1px solid #e4e4e4;
 }
 
+.footer-gallery table{
+	margin: 0 auto;
+}
+
 .footer-article .mr-3{
 	width: 45px;
 	height: 45px;
 	border:1px solid #ddd;
 	padding: 2px
 }
+
+.footer-gallery .mr-1 {
+	width: 64px;
+	height: 64px;
+	border:1px solid #ddd;
+	padding: 2px;
+	transition: all 0.5s;
+}
+
+.footer-gallery .mr-1:hover{
+	box-shadow: 1px 1px 20px #5d5959;
+}
+
+
 
 .footer-article .media-body{
 	font-size: 13px;
@@ -48,12 +162,150 @@ p.caption{
 }
 
 footer{
-	background-color: #4682B4;
+	background-color: #00BCD4;
 	color:#fff;
 	padding-top: 20px;
-
 }
 
 footer a{
 	color: #fff !important;
 }
+
+.aboutus {
+	margin: 0 auto;
+	padding: 50px 20px;
+	text-align: justify;
+}
+
+.articles {
+
+	position: relative;
+}
+
+.articles a {
+	color: #FFA500;
+}
+
+.articles .pre-title {
+	border-bottom: 2px solid  #FFA500;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.articles .pre-title span {
+	background:#FFA500;
+    padding: 4px 11px;
+    color: #fff;
+}
+
+.sidebar {
+
+	float: left;
+
+	position: relative;
+}
+
+.pre-title {
+    border-bottom: 2px solid  #0aafe6;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pre-title span {
+    background: #0aafe6;
+    padding: 4px 11px;
+    color: #fff;
+}
+
+.popular-articles {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.popular-articles a {
+	color: #000;
+	font-weight: 600;
+}
+
+.popular-articles li {
+	/* padding: 5px 10px; */
+	border-bottom: 2px solid #d4d4d45c;
+}
+
+.last-articles {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.last-articles a {
+	color: #000;
+	font-weight: 600;
+}
+
+.last-articles li{
+	padding: 5px 10px;
+	border-left: 2px solid #126f8e5c;
+	margin-bottom: 21px;
+}
+
+span.date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #a5a5a5;
+}
+
+.article h3 {
+	color: gray;
+	padding: 10px 0;
+}
+
+.article p {
+    padding: 20px 0;
+    line-height: 32px;
+}
+
+.comments .pre-title {
+	margin: 20px 0;
+	border-bottom: 2px solid #bd2130 !important;
+}
+
+.comments .pre-title span {
+	background-color: #bd2130;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.attr-style .nav {
+	background-color: #fff;
+	color: #000;
+	justify-content: center;
+}
+
+.attr-style .nav-item {
+	padding: 20px;
+	color : orange;
+}
+
+.content {
+	padding: 20px 0;
+	line-height: 30px;
+}
+
+.attr-style .tab-content {
+	text-align: center;
+}
+
+.tooltip>.tooltip-inner {
+      background-color: #FFA500; 
+      color: #FFFFFF; 
+      border: 1px solid #FFA500; 
+      padding: 10px;
+      
+  }
+
+.tooltip.left > .tooltip-arrow {
+      border-left: 5px solid #FFA500;
+  }
+
